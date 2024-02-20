@@ -59,4 +59,26 @@ body {
   width: 100%;
   background-color: rgba(17, 17, 17, 0.6);
   border-radius: 30px;
+  padding: 0 40px 40px 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  gap: 32px;
+  color: #fff;
+}
+.start-title {
+  font-size: 28px;
+  line-height: 121%;
+  letter-spacing: -0.03em;
+  font-weight: 500;
+  max-width: 484px;
+}
+.start__buttoms {
+  display: flex;
+  justify-content: space-between;
+  font-weight: 600;
+}
+.start__buttom-bay {
+  border-radius: 100px;
+  background-color: #fd9222;
 }
