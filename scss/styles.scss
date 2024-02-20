@@ -1,0 +1,62 @@
+@import '_null.scss';
+
+.wrapper {
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  > main {
+    flex: 1 1 auto;
+  }
+}
+body {
+  font-family: Montserrat, sans-serif;
+  color: #111111;
+  font-size: 14px;
+}
+.container {
+  max-width: 1166px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+.header__content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 24px;
+  padding-bottom: 32px;
+  gap: 90px;
+}
+.header__nav-logo {
+  font-size: 18px;
+  letter-spacing: -0.03em;
+  line-height: 111%;
+  font-weight: 700;
+  flex-grow: 1;
+}
+.logo-span {
+  font-style: italic;
+}
+
+.header__menu {
+  display: flex;
+  justify-content: space-between;
+  gap: 24px;
+}
+.header__menu-item {
+  line-height: 114%;
+  letter-spacing: -0.02em;
+  font-weight: 500;
+}
+.header__social {
+  display: inline-flex;
+  justify-content: space-between;
+  gap: 14px;
+}
+.start__content {
+  min-height: 600px;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(17, 17, 17, 0.6);
+  border-radius: 30px;
+}
