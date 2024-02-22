@@ -73,20 +73,17 @@ h6 {
   font-size: inherit;
 }
 
-.wrapper {
+body {
   min-height: 100%;
   display: flex;
   flex-direction: column;
   overflow: hidden;
-}
-.wrapper > main {
-  flex: 1 1 auto;
-}
-
-body {
   font-family: Montserrat, sans-serif;
   color: #111111;
   font-size: 14px;
+}
+body > main {
+  flex: 1 1 auto;
 }
 
 .container {
