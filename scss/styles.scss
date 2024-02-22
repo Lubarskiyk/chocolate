@@ -1,6 +1,6 @@
 @import '_null.scss';
 
-body {
+.wrapper {
   min-height: 100%;
   display: flex;
   flex-direction: column;
@@ -8,6 +8,8 @@ body {
   > main {
     flex: 1 1 auto;
   }
+}
+body {
   font-family: Montserrat, sans-serif;
   color: #111111;
   font-size: 14px;
