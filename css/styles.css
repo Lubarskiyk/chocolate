@@ -163,6 +163,7 @@ body {
 }
 
 .start__buttom-bay {
+  max-width: 100px;
   border-radius: 100px;
   background-color: #fd9222;
 }
